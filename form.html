@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <header class="header">
+      <a href="index.html">
+        <img
+          class="logo"
+          alt="ddroidd logo"
+          src="./assets/img/ddroidd_logo.svg"
+      /></a>
+      <div class="title-container">
+        <span class="title">Autumn - Winter Bootcamp</span>
+      </div>
+      <div><button class="btn d-none">Join Us</button></div>
+    </header>
+    <main>
+      <div class="main-container form-container">
+        <p class="form-title">Application Form</p>
+
+        <form action="" method="get" class="form">
+          <filset>
+            <legend>Contact Information</legend>
+            <br />
+            <div class="row">
+              <div class="form-element">
+                <label for="fName" class="bold-label"
+                  >First Name <span class="required">*</span></label
+                >
+                <input
+                  type="text"
+                  name="fName"
+                  id="fName"
+                  class="sm-input"
+                  placeholder="First name"
+                />
+              </div>
+              <div class="form-element">
+                <label for="lName" class="bold-label"
+                  >Last Name <span class="required">*</span></label
+                >
+                <input
+                  type="text"
+                  name="lName"
+                  id="lName"
+                  class="sm-input"
+                  placeholder="Last name"
+                />
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="form-element">
+                <label for="phone"
+                  >Phone Number<span class="required">*</span></label
+                >
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  class="sm-input"
+                  placeholder="+40 711 111 111"
+                />
+              </div>
+              <div class="form-element">
+                <label for="email"
+                  >Email address <span class="required">*</span></label
+                >
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  class="sm-input"
+                  placeholder="john@doe.com"
+                />
+              </div>
+            </div>
+          </filset>
+          <br />
+          <filset>
+            <legend>Address</legend>
+            <br />
+            <div class="row">
+              <div class="form-element">
+                <label for="address1"
+                  >Address Line 1 <span class="required">*</span></label
+                >
+                <input
+                  type="text"
+                  name="address1"
+                  id="address1"
+                  placeholder="Street name & number"
+                />
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="form-element">
+                <label for="address2">Address Line 2 </label>
+                <input
+                  type="text"
+                  name="address2"
+                  id="adress2"
+                  class="lg-input"
+                  placeholder="Street name & number"
+                />
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="form-element">
+                <label for="country"
+                  >Country<span class="required">*</span></label
+                >
+                <select name="country" id="country">
+                  <option value="">Country</option>
+                </select>
+              </div>
+              <div class="form-element">
+                <label for="State">State</label>
+                <select name="state" id="state">
+                  <option value="state" selected>State</option>
+                </select>
+              </div>
+              <div class="form-element">
+                <label for="city">City<span class="required">*</span></label>
+                <select name="city" id="city">
+                  <option value="city" selected>City</option>
+                </select>
+              </div>
+            </div>
+          </filset>
+          <br /><br /><br />
+          <fildset>
+            <div class="row submit-err-container">
+              <div class="error-msg">
+                <p>Please fix the following errors to proceed:</p>
+                <ul>
+                  <li id="fName-err-msg">First name is required</li>
+                  <li id="lName-err-msg">Last name is required</li>
+                  <li id="phone-err-msg">Wrong phone number format</li>
+                  <li id="email-err-msg">Email is required</li>
+                  <li id="address-err-msg">Address is required</li>
+                  <li id="city-err-msg">City is required</li>
+                </ul>
+              </div>
+              <button class="btn" type="submit" id="submit">Join Us</button>
+            </div>
+          </fildset>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <div>
+        <span>Come to the dark side... we have</span>
+        <img class="cookie" alt="cookie" src="./assets/img/cookie.svg" />
+      </div>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
