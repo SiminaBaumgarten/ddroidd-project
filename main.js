@@ -182,7 +182,7 @@ function isValid() {
   ) {
     localStorage.setItem("First name", fNameValue);
     localStorage.setItem("Last name", lNameValue);
-    localStorage.setItem("Phone", JSON.stringify(phoneValue));
+    localStorage.setItem("Phone", phoneValue);
     localStorage.setItem("Email", emailValue);
     localStorage.setItem("Address", addressValue);
     localStorage.setItem("Country", countryValue);
@@ -190,8 +190,6 @@ function isValid() {
     localStorage.setItem("City", cityValue);
 
     window.location.href = "successfull.html";
-
-    // const info = localStorage.getItem("Phone");
   }
 }
 
