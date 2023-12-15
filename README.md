@@ -1,4 +1,7 @@
 # ddroidd_ Frontend Autumn-Winter Bootcamp 2023 Web Challenge
+![image](https://github.com/SiminaBaumgarten/ddroidd-project/assets/74676286/a8e2d6d8-5a57-4332-9d9b-3813f4eb7ef0)
+
+
 # REQUIREMENTS
 
 ### 1. STEP ONE - IMPLEMENT A WEB APPLICATION BASED ON THE RECEIVED DESIGN SPECIFICATIONS
