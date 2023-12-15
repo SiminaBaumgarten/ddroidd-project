@@ -1,5 +1,6 @@
 # ddroidd_ Frontend Autumn-Winter Bootcamp 2023 Web Challenge
-![image](https://github.com/SiminaBaumgarten/ddroidd-project/assets/74676286/a8e2d6d8-5a57-4332-9d9b-3813f4eb7ef0)
+![image](https://github.com/SiminaBaumgarten/ddroidd-project/assets/74676286/e3652ed8-bc1d-4fb8-8e33-3f8addd24eb2)
+
 
 
 # REQUIREMENTS
